@@ -1,3 +1,9 @@
+/* Name: Joseph Kiebler
+Class: SDI Section 01
+Date: 09/29/15
+Assignment: Output Assignment */
+
+
 //Define variables
 
 //String Variable; Define type of car driven
