@@ -12,3 +12,5 @@ var loveMusic = true;
 
 //Output car driven to console with contextual statement
 console.log("I drive a " + myCar + ".");
+//Output length of time lived in area to console with contextual statement
+console.log("I have lived in this area for " + livedHere + " years.");
