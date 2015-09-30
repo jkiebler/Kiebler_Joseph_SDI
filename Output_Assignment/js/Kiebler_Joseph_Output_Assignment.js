@@ -6,3 +6,9 @@ var myCar = "2006 Nissan Maxima";
 var livedHere = 22;
 //Boolean Variable; Define validity of love for music
 var loveMusic = true;
+
+
+//Body of code
+
+//Output car driven to console with contextual statement
+console.log("I drive a " + myCar + ".");
