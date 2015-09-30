@@ -14,3 +14,5 @@ var loveMusic = true;
 console.log("I drive a " + myCar + ".");
 //Output length of time lived in area to console with contextual statement
 console.log("I have lived in this area for " + livedHere + " years.");
+//Output validity of love for music
+console.log("It is " + loveMusic + " that I love all kinds of music, but rock more than any other.");
