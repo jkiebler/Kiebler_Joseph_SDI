@@ -57,3 +57,21 @@ Assignment: Expressions Worksheet */
     weeklyAvg = totalSpent / 5;  //set weekly average to total spent divided by 5 days
     console.log("You have spent a total of $" + totalSpent + " on groceries over 5 weeks. That's an average of $" + weeklyAvg + " per week.");  //output                                                                                                                                                   to console
 
+
+
+
+
+//Problem 5: Discounts
+
+    //Variables
+    var originalPrice = 120;  //variable for original price
+    var discountPercentage = 45;  //variable for discount percentage
+    var itemDescription = "Keurig coffee maker";  //string variable for item description
+    var salesTax = 6;  //variable for sales tax
+    var withTax;  //empty variable for with tax
+    var sansTax;  //empty variable for without tax
+
+    //Main Code
+    sansTax = originalPrice - (originalPrice * (discountPercentage / 100));  //set value of sansTax to result of equation
+    withTax = sansTax + (sansTax * (salesTax / 100));  //set value of withTax to reuslt of equation
+    console.log("Your " + itemDescription + "was originally $" + originalPrice + ", but after a " + discountPercentage + "% discount it is $ " + sansTax +                  " without tax and $ " + withTax + " with tax.");  //output results to console
