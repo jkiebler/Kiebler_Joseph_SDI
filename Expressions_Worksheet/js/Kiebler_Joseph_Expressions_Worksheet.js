@@ -12,7 +12,7 @@ Assignment: Expressions Worksheet */
     //Main Code
     dogYears = humanYears * 7;  //set dogYears to humanYears times 7
     
-    console.log("Sparky is " + humanYears + " years old in human years, which is " + dogYears + " years old in dog years.";  //print result to console   
+    console.log("Sparky is " + humanYears + " years old in human years, which is " + dogYears + " years old in dog years.");  //print result to console   
                 
 
 
@@ -21,11 +21,29 @@ Assignment: Expressions Worksheet */
                 
     //Variables
     var numberPizzas = 10;  //variable for total number of pizzas ordered;
-    var numberPeople = 15;  //variable for number of people
+    var numberPeople = 20;  //variable for number of people
     var slicesPerPizza = 8;  //variable for number of slices per pizza
     var numberSlices = numberPizzas * slicesPerPizza;  //variable to determine total number of slices
     var numberPerPerson;
                 
     //Main Code
     numberPerPerson = numberSlices / numberPeople;  //set value of numberPerPerson to result of equation
-    console.log("Each person ate " + numberPerPerson + " slices of pizza at the party.";  //display result in console
+    console.log("Each person ate " + numberPerPerson + " slices of pizza at the party.");  //display result in console
+                
+                
+                
+                
+//Problem 3: Slice of Pie Part 2
+
+    //Variables
+    var pizzaForSparky;  //create empty variable for pizza for Sparky
+    
+    //Main Code
+    pizzaForSparky = numberSlices - (numberPeople * numberPerPerson);  //set pizzaForSparky to result of equation
+    console.log("Sparky got to eat " + pizzaForSparky + " slices of pizza."  //output result to console
+                
+
+                
+
+//Problem 4: Average shopping bill
+            
