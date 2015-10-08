@@ -40,7 +40,7 @@ Assignment: Expressions Worksheet */
     
     //Main Code
     pizzaForSparky = numberSlices - (numberPeople * numberPerPerson);  //set pizzaForSparky to result of equation
-    console.log("Sparky got to eat " + pizzaForSparky + " slices of pizza."  //output result to console
+    console.log("Sparky got to eat " + pizzaForSparky + " slices of pizza.");  //output result to console
                 
 
                 
@@ -48,7 +48,7 @@ Assignment: Expressions Worksheet */
 //Problem 4: Average shopping bill
 
     //Variables
-    var billTotals = [160, 135, 198, 156, 174]  //create array for weekly bill totals
+    var billTotals = [160, 135, 198, 156, 174];  //create array for weekly bill totals
     var totalSpent;  //empty variable for total spent
     var weeklyAvg;  //empty variable for average per week
                 
