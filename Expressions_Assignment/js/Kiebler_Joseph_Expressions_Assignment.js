@@ -20,3 +20,5 @@ hoursWorked = prompt("How many hours will be on this check?");  //set value of h
 Number(hoursWorked);
 
 netPay = (payRate * hoursWorked) * 0.24;  //set netPay to result of equation
+
+console.log("You can expect $" + netPay + " on your next check.");  //display estimated value of paycheck
