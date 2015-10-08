@@ -46,4 +46,14 @@ Assignment: Expressions Worksheet */
                 
 
 //Problem 4: Average shopping bill
-            
+
+    //Variables
+    var billTotals = [160, 135, 198, 156, 174]  //create array for weekly bill totals
+    var totalSpent;  //empty variable for total spent
+    var weeklyAvg;  //empty variable for average per week
+                
+    //Main Code
+    totalSpent = billTotals[0] + billTotals[1] + billTotals[2] + billTotals[3] + billTotals[4];  //set total spent to result of equation
+    weeklyAvg = totalSpent / 5;  //set weekly average to total spent divided by 5 days
+    console.log("You have spent a total of $" + totalSpent + " on groceries over 5 weeks. That's an average of $" + weeklyAvg + " per week.");  //output                                                                                                                                                   to console
+
